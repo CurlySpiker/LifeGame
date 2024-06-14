@@ -13,7 +13,7 @@ LifeGame relies on CMake to build the project. If not already installed, please 
 sudo apt-get install cmake
 ```
 
-This repository provides a set of tests that can be ran as a CI process. Tests are handled
+This repository provides a set of tests that can be run as a CI process. Tests are handled
 by the Catch2 library, which must be downloaded and installed if necessary:
 
 ```
@@ -57,7 +57,7 @@ please make sure to use a reasonable number of iterations to avoid breaking your
 You will be asked for confirmation when trying to generate more than 20 files.
 
 NB: As a safeguard, the program will stop if the board reaches a size > 256*256 cells.
-If required, this can be removed by using the option --noLimit, at the risk of reaching memory overflow.
+If required, this can be removed by using the option --no-limit, at the risk of reaching memory overflow.
 
 # CI
 
