@@ -1,0 +1,2 @@
+#define LifeGame_VERSION_MAJOR @LifeGame_VERSION_MAJOR@
+#define LifeGame_VERSION_MINOR @LifeGame_VERSION_MINOR@
